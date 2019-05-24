@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "types": ["reflect-metadata", "jest"],  //<--  add jest or remove completely
+    "moduleResolution": "node",
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
